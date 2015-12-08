@@ -71,4 +71,11 @@ IB_DESIGNABLE
  */
 @property (nonatomic, assign) IBInspectable CGFloat phaseShift;
 
+/*
+ * The phase shift that will be applied with each level setting
+ * Change this to modify the animation speed or direction
+ * Default: -0.15
+ */
+@property (nonatomic,strong) NSArray* colors;
+
 @end
